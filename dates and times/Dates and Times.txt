@@ -1,0 +1,15 @@
+Dates and Times
+
+In addition to numbers and strings, it's also common to store dates and times.
+
+For example, if you create a table to store events, you may need to store the date of each event in a specific format. For this, you have the DATE data type:
+
+event_date DATE
+To store time, you can also use the TIME data type. For example, you may store the time when an event starts:
+
+start_time TIME
+The TIMESTAMP data type combines both of them. It includes both the date and time. It may also include the time zone if you write TIMESTAMP WITH TIME ZONE:
+
+event_timestamp TIMESTAMP
+event_timestamp TIMESTAMP WITH TIME ZONE
+

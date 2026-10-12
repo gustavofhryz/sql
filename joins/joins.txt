@@ -1,0 +1,7 @@
+inner join
+
+full outer join
+
+JOIN ON
+JOIN '' ON '' = '';
+order by

@@ -1,0 +1,5 @@
+The BOOLEAN Data Type
+And finally, if you need to store a boolean value, TRUE or FALSE, you can use the BOOLEAN data type:
+
+is_active BOOLEAN
+Now you know some of the most common data types in SQL, but there are many more. You can check the documentation of your database management system to find more information about the data types that you can use.

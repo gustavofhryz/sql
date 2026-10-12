@@ -1,0 +1,23 @@
+Numeric Values
+
+
+First, we have the INTEGER data type:
+
+units_sold INTEGER
+In this example, we assign this data type to a units_sold column.
+
+INTEGER types consume 4 bytes in the database and can range in value from -2,147,483,648 to 2,147,483,647. The official PostgreSQL documentation describes it as the "typical choice for integer."
+
+We also have SMALLINT and BIGINT, which are basically the same as INTEGER except have a smaller and bigger range of numbers, respectively, due to how much size they are allotted in the database.
+
+A useful feature available in PostgreSQL is to create a column using the SERIAL keyword. Here, an id column is created using SERIAL:
+
+id SERIAL
+While it's not a true data type, it's very helpful for creating unique identifier columns because the column will have an INTEGER type, will not allow NULL values, and automatically increment when rows are added.
+
+For example, the first row will automatically have an id of 1, the second row will have an id of 2, and so on, creating a unique ID for each record.
+
+In MySQL, the equivalent of SERIAL would be the AUTO_INCREMENT attribute, used to generate sequential integers automatically:
+
+id INT AUTO_INCREMENT
+You can see that different database management systems may have different ways of achieving exactly the same functionality in your database.

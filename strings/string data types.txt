@@ -1,0 +1,12 @@
+String Data Types
+
+These are the most commonly used numeric data types, but sometimes, you may need to represent text or sequences of characters.
+
+For this, you have the VARCHAR data type. This data type is used for a variable string length. You can set the maximum character length within parentheses:
+
+name VARCHAR(50)
+In this example, we define a name column, where the values can be up to 50 characters long.
+
+This data type sets a maximum length for the strings, but if you need to store strings of any length, you can use TEXT instead:
+
+name TEXT

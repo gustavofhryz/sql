@@ -1,0 +1,27 @@
+select '' from ''
+select cliente,nome from
+orderby '' ;
+orderby '' asc/desc;
+groupyby
+where '' = ' '
+< > 
+<= =>
+and / or
+not like
+count
+%%
+min max()
+AVG FROM
+COUNT
+SUM
+having
+getdate()
+datepart()
+dateadd
+substring
+upper
+lower
+concat
+len
+ltrim
+rtrim

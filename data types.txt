@@ -1,0 +1,17 @@
+The Data Type Categories in SQL
+As a developer, your goal is to choose these data types as accurately as possible.
+There are six popular categories of data types in SQL:
+
+
+Numeric, such as INTEGER, FLOAT, SERIAL, and DECIMAL.
+
+Date and time, such as TIMESTAMP, DATE, and TIME.
+
+Character and string. These include CHAR, VARCHAR, and TEXT.
+
+Unicode, including NTEXT, and NVARCHAR. 
+These are used to make sure that text will be stored and retrieved correctly, regardless of the characters' origin.
+
+Binary, used to store non-textual data, like images, audio, and video files.
+
+And other miscellaneous data types, such as XML and TABLE.
