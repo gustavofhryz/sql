@@ -1,0 +1,4 @@
+SELECT candidate, role, offer
+FROM interviews
+WHERE track = 'Data Science'
+AND outcome = 'Offer';
