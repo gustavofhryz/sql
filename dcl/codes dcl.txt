@@ -1,0 +1,6 @@
+1. Criar o usuário (Equivale a criar o Logon):sql
+CREATE USER 'gustavo'@'localhost' IDENTIFIED BY 'senha_segura';
+Use o código com cuidado.
+
+2. Dar permissão em um banco (Equivale a associar ao Usuário do banco):sql
+GRANT SELECT, INSERT ON meu_banco_de_dados.* TO 'gustavo'@'localhost';

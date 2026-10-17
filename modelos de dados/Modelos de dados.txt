@@ -1,0 +1,11 @@
+Modelos de dados
+
+Alto Nível
+
+Denominado como modelo de dados conceituais ou modelo Entidade-Relacionamento,
+o seu principal conceito é uma projeção dos dados com uma maior proximidade possível da visão que o usuário obtém deles.
+
+Baixo Nível
+
+Nesse caso, é mais conhecido como um modelo de dados de caráter físico,
+pois ele fornece uma visão detalhada da maneira de como os dados estão armazenados em um local.

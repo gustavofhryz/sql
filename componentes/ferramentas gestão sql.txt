@@ -1,0 +1,13 @@
+SQL Server Management Studio
+
+Principal ferramenta de gestão do SQL
+
+SQL Server Configuration Manager
+
+Ferramenta para manutenção no nível do banco de dados.
+Por exemplo, trocar a porta de serviços, reiniciar ou parar o banco de dados,
+trocar parâmetros de inicialização, etc.
+
+SQL Server Profile
+
+Permite a realização de consultas em tempo real ao banco de dados.

@@ -1,0 +1,7 @@
+• Validação e Manutenção (Equivalentes ao DBCC CHECKDB / DBCC SHRINKFILE):
+	• CHECK TABLE nome_da_tabela; — Verifica se há erros ou corrupção em uma tabela específica.
+	• OPTIMIZE TABLE nome_da_tabela; — Reorganiza o armazenamento físico e os dados de índice para melhorar o desempenho (similar a tarefas de manutenção/encolhimento).
+	• REPAIR TABLE nome_da_tabela; — Tenta reparar tabelas corrompidas (funciona principalmente no motor MyISAM).
+• Informativos (Equivalentes ao DBCC SHOW_STATISTICS):
+	• SHOW STATUS; — Exibe uma lista detalhada com métricas de desempenho e estatísticas do servidor atual.
+	• ANALYZE TABLE nome_da_tabela; — Atualiza a distribuição de chaves e estatísticas para o otimizador de consultas.

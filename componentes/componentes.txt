@@ -1,0 +1,15 @@
+DATABASE ENGINE
+
+O serviço principal de um banco de dados SQL Server, possuindo várias features como Replicação, Full-Text, Service Broker etc.
+
+ANALYSIS SERVICE
+
+Processamento analítico, cruzamento de dados, geração de relatórios, muito usado em BI (Business Intelligence)
+
+REPORTING SERVICES
+
+Desenvolvimento de relatórios e geração de gráficos.
+
+INTEGRATION SERVICES
+
+Tarefas de ETL, integração, importação e exportação de dados.
